@@ -2,7 +2,7 @@
 
 foo = foo version 3
 
-启动程序：访问[地址](http://localhost:8771/foo/dev)
+启动程序，访问[http://localhost:8771/foo/dev](http://localhost:8771/foo/dev)
 
 {"name":"foo","profiles":["dev"],"label":"master",
 "version":"792ffc77c03f4b138d28e89b576900ac5e01a44b","state":null,"propertySources":[]}
