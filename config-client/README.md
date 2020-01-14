@@ -1,0 +1,2 @@
+- 访问[地址](http://localhost:8082/hi)
+- 注意，不能用application.yaml，必须使用bootstrap.yaml

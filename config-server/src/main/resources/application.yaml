@@ -7,13 +7,13 @@ spring:
   cloud:
     # 仓库配置，必须配置，否则启动报错
     config:
+      label: master
       server:
         git:
           uri: https://github.com/forezp/SpringcloudConfig/
           search-paths: respo
           username:
           password:
-      label: master
 
 eureka:
   client:
