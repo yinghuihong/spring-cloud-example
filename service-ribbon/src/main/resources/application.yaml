@@ -1,0 +1,23 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: service-ribbon
+
+eureka:
+  instance:
+    # 租约续租间隔时间
+    lease-renewal-interval-in-seconds: 5
+    # 租约到期持续时间
+    lease-expiration-duration-in-seconds: 15
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    # 到注册中心获取最新信息的间隔时间，eureka本地缓存的刷新间隔时间
+    registry-fetch-interval-seconds: 5
+
+#ribbon:
+#  # 服务器列表的刷新间隔时间，ribbon缓存的刷新间隔时间
+#  server-list-refresh-interval: 2000
+

@@ -10,3 +10,8 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    # 影响到及时获取服务信息，响应缓存的刷新间隔时间
+    response-cache-update-interval-ms: 30
+    # 设置为false禁用只从响应缓存中读取
+    use-read-only-response-cache: false

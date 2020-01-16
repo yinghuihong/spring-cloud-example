@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: service-hi
+
+eureka:
+  instance:
+    # 租约续租间隔时间
+    lease-renewal-interval-in-seconds: 5
+    # 租约到期持续时间
+    lease-expiration-duration-in-seconds: 15
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
