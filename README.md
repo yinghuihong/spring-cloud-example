@@ -1,0 +1,9 @@
+|  模块   | 端口  |
+|  ----  | ----  |
+| eureka-server  | 8761/8762 |
+| config-server  | 8771 |
+| service-ribbon  | 8781 |
+| service-feign  | 8782 |
+| eureka-discovery-client  | 8081 |
+| config-client  | 8082 |
+| service-hi  | 8091/8092 |

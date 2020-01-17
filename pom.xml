@@ -10,6 +10,7 @@
     <modules>
         <module>service-hi</module>
         <module>service-ribbon</module>
+        <module>service-feign</module>
         <module>eureka-server</module>
         <module>eureka-discovery-client</module>
         <module>gateway</module>
