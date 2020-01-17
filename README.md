@@ -9,3 +9,4 @@
 | service-feign  | 8792 |
 | service-turbine  | 8801 |
 | service-hi  | 8091/8092 |
+| spring-boot-admin-server  | 8811 |
