@@ -8,4 +8,6 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+#      defaultZone: http://localhost:8761/eureka/
+      # 也可采用主机名，在/etc/hosts中已添加：127.0.0.1 peer2
+      defaultZone: http://peer2:8762/eureka/

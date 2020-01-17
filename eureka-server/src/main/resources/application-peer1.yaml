@@ -1,0 +1,20 @@
+server:
+  port: 8761
+
+spring:
+  profiles: peer1
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    # 声明自己是个服务端
+    registerWithEureka: false # false表示不向自己注册自己
+    fetchRegistry: false # false表示自己就是注册中心，职责是维护实例，不参加检索
+    serviceUrl:
+      defaultZone: http://peer2:8762/eureka/
+  server:
+    # 影响到及时获取服务信息，响应缓存的刷新间隔时间
+    response-cache-update-interval-ms: 30
+    # 设置为false禁用只从响应缓存中读取
+    use-read-only-response-cache: false
