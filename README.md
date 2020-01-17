@@ -5,6 +5,7 @@
 | config-server  | 8771 |
 | config-client  | 8779 |
 | service-zuul  | 8781 |
+| service-gateway  | 8782 |
 | service-ribbon  | 8791 |
 | service-feign  | 8792 |
 | service-turbine  | 8801 |
