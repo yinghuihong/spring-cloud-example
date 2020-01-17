@@ -17,6 +17,6 @@ public class HiController {
 
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "yinghuihong") String name) {
-        return "hi " + name + " ,i am from port:" + port;
+        return "hi " + name + ", i am from port: " + port;
     }
 }
