@@ -10,3 +10,5 @@
     - 打开浏览器访问：http://localhost:8781/api-b/hi?name=yinghuihong ;浏览器显示：
         - hi yinghuihong, i am from port: 8091
     - 这说明zuul起到了路由的作用
+    
+![flow](./doc/architecture.png)
