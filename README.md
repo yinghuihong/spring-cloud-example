@@ -7,4 +7,5 @@
 | service-zuul  | 8781 |
 | service-ribbon  | 8791 |
 | service-feign  | 8792 |
+| service-turbine  | 8801 |
 | service-hi  | 8091/8092 |

@@ -45,5 +45,6 @@
 ------------------------------------------------------------------------------------------------------------------------
 
 - hystrix dashboard
-- [http://127.0.0.1:8791/hystrix/](http://127.0.0.1:8791/hystrix/)
-- Single Hystrix App: [http://127.0.0.1:8791/actuator/hystrix.stream](http://127.0.0.1:8791/actuator/hystrix.stream)
+- 可查看良好的UI页面 [http://127.0.0.1:8791/hystrix/](http://127.0.0.1:8791/hystrix/)
+- 也可直接查看监控流地址
+    - Single Hystrix App: [http://127.0.0.1:8791/actuator/hystrix.stream](http://127.0.0.1:8791/actuator/hystrix.stream)
