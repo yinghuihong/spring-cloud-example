@@ -17,3 +17,6 @@ eureka:
     # 到注册中心获取最新信息的间隔时间，eureka本地缓存的刷新间隔时间
     registry-fetch-interval-seconds: 5
 
+feign:
+  hystrix:
+    enabled: true
