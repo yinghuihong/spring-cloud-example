@@ -21,3 +21,9 @@ eureka:
 #  # 服务器列表的刷新间隔时间，ribbon缓存的刷新间隔时间
 #  server-list-refresh-interval: 2000
 
+# 熔断器DashBoard：actuator在spring-boot2.0后调整开关 web端点的配置，”**“代表开启所有
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

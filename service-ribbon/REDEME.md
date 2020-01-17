@@ -40,3 +40,10 @@
     - LoadBalancer refresh
         - 当负载均衡使用RIBBON时，修改ribbon.serverListRefreshInterval=2000
     - 正常上线下线客户端最大感知时间：7秒
+    
+    
+------------------------------------------------------------------------------------------------------------------------
+
+- hystrix dashboard
+- [http://127.0.0.1:8791/hystrix/](http://127.0.0.1:8791/hystrix/)
+- Single Hystrix App: [http://127.0.0.1:8791/actuator/hystrix.stream](http://127.0.0.1:8791/actuator/hystrix.stream)
