@@ -8,6 +8,16 @@ spring:
     user:
       name: "admin"
       password: "admin"
+#  # 已注册的服务由up变成down时，发告警邮件
+#  mail:
+#    host: smtp.qq.com
+#    username: 123456@qq.com
+#    password:
+#  boot:
+#    admin:
+#      notify:
+#        mail:
+#          to: xxx@qq.com
 
 # 结合注册中心一起使用
 eureka:
