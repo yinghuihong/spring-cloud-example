@@ -10,3 +10,4 @@
 | service-turbine  | 8801 |
 | service-hi  | 8091/8092 |
 | spring-boot-admin-server  | 8811 |
+| spring-boot-admin-client  | 8819 |

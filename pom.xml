@@ -19,6 +19,7 @@
         <module>service-turbine</module>
         <module>service-hi</module>
         <module>spring-boot-admin-server</module>
+        <module>spring-boot-admin-client</module>
     </modules>
 
     <packaging>pom</packaging>
