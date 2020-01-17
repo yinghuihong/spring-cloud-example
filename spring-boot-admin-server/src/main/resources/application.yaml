@@ -4,12 +4,19 @@ server:
 spring:
   application:
     name: admin-server
+  security:
+    user:
+      name: "admin"
+      password: "admin"
 
 # 结合注册中心一起使用
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 10
     health-check-url-path: /actuator/health
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
   client:
     registry-fetch-interval-seconds: 5
     service-url:
